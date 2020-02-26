@@ -17,12 +17,18 @@ public class Main {
         System.out.println("Double max value = " + myMaxDoubleValue);
 
         // Practice
-        int myIntValue = 5;
-        float myFloatValue = 5.25f;
-        double myDoubleValue = 5.25d;
+        int myIntValue = 5 / 3 ;
+        float myFloatValue = 5f / 3f;
+        double myDoubleValue = 5d / 3d; // d or f only needed if no decimal point
 
         // Casting
         float myNewFloatValue = (float)5.25;
+
+        System.out.println("myIntValue = " + myIntValue); // prints 1 *whole num* - no remainder
+        System.out.println("myFloatValue = " + myFloatValue);
+        System.out.println("myDoubleValue = " + myDoubleValue); // more precision
+
+        
 
     }
 }
