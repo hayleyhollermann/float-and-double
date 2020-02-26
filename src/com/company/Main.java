@@ -28,7 +28,18 @@ public class Main {
         System.out.println("myFloatValue = " + myFloatValue);
         System.out.println("myDoubleValue = " + myDoubleValue); // more precision
 
-        
+        // CHALLENGE
+        // 1. Create a variable w/ appropriate type
+        // to store a number of pounds to be converted to kg
+        float weightPounds = 152.5f;
+
+        // 2. Calculate the result (i.e. the number) of kg based on number above
+        // and store that variable in a second appropriate variable type
+        double weightKilograms = (weightPounds) * 0.45359239d;
+
+        // 3. Print out the result
+        System.out.println(weightKilograms);
+
 
     }
 }
